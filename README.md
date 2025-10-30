@@ -18,6 +18,7 @@
   - [Testing & Test Automation](#testing--test-automation)
   - [Dependency & Package Management](#dependency--package-management)
   - [FastAPI Project (End-to-End)](#fastapi-project-end-to-end)
+  - [Coding using AI Assistants](#coding-using-ai-assistants)
 
 
 ## Python Setup, Virtual Environments & pip
@@ -107,3 +108,7 @@ Bring everything together by building a small FastAPI application.
 Create REST endpoints with Pydantic models, structured logging, and configuration files.
 Integrate an external API, handle errors gracefully, and write tests for your routes.
 End with a clean, production-style project layout ready for deployment with uvicorn.
+
+## Coding using AI Assistants
+
+Learn how to effectively partner with AI coding assistants (like GitHub Copilot, GPT-based chat tools, and code analyzers) to accelerate development without sacrificing code quality or ownership.
