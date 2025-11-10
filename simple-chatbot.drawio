@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="28.2.9">
+  <diagram name="Page-1" id="KEPqfnA2dirPVX1TmGxK">
+    <mxGraphModel dx="1816" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zzNf659k8-sr3MzW7wWD-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zzNf659k8-sr3MzW7wWD-1" target="zzNf659k8-sr3MzW7wWD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzNf659k8-sr3MzW7wWD-1" value="Ollama Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzNf659k8-sr3MzW7wWD-2" value="Gemma 3 4B" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzNf659k8-sr3MzW7wWD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zzNf659k8-sr3MzW7wWD-4" target="zzNf659k8-sr3MzW7wWD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzNf659k8-sr3MzW7wWD-4" value="Fast API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zzNf659k8-sr3MzW7wWD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zzNf659k8-sr3MzW7wWD-6" target="zzNf659k8-sr3MzW7wWD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zzNf659k8-sr3MzW7wWD-6" value="Simple UI from Python" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
