@@ -112,3 +112,9 @@ End with a clean, production-style project layout ready for deployment with uvic
 ## Coding using AI Assistants
 
 Learn how to effectively partner with AI coding assistants (like GitHub Copilot, GPT-based chat tools, and code analyzers) to accelerate development without sacrificing code quality or ownership.
+
+
+
+# Project Structure 
+
+https://docs.python-guide.org/writing/structure/
