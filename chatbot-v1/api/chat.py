@@ -1,16 +1,17 @@
+#pylint: disable=C0304
 """
 Seperate chat POST endpoint
 """
 import os
-import ollama
+from google import genai
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse
-from lib import SessionManager
+from lib import SessionManager, PromptTemplates
 
-OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+GEMINI_MODEL_ID = os.environ.get("GEMINI_MODEL_ID", "gemini-2.5-flash")
 
 router = APIRouter()
-ollama_client = ollama.Client(host=OLLAMA_HOST)
+client = genai.Client()
 
 @router.post("/api/chat")
 async def chat_function(request: Request):
@@ -32,9 +33,11 @@ async def chat_function(request: Request):
             session_id = session_manager.create_session()
 
         session_manager.session_context.append({"role": "user", "content": message})
-        # response = ollama_client.chat(model = "gemma3:4b", messages=session_manager.session_context)
-        # response_message = response.message.content #pylint: disable=E1101
-        response_message = "Hello  fro the LLM"
+        response = client.models.generate_content(
+            model=GEMINI_MODEL_ID,
+            contents=PromptTemplates.chat_prompt(session_manager.session_context)
+        )
+        response_message = response.text
         session_manager.session_context.append(
             {"role": "assistant", "content": response_message}
         )

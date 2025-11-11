@@ -1,0 +1,34 @@
+[
+    {
+        "role": "user",
+        "content": "Hi my name is suraj"
+    },
+    {
+        "role": "assistant",
+        "content": "Hi Suraj! It's nice to meet you. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "i am a data engineer"
+    },
+    {
+        "role": "assistant",
+        "content": "That's a very important and in-demand role in today's data-driven world!\n\nWhat kind of data engineering work do you typically focus on, or are there any interesting projects you're working on these days?"
+    },
+    {
+        "role": "user",
+        "content": "tell me one skill that I need to learn in 2026. just give a one line answer"
+    },
+    {
+        "role": "assistant",
+        "content": "AI-powered data automation."
+    },
+    {
+        "role": "user",
+        "content": "what is my name and my role ?"
+    },
+    {
+        "role": "assistant",
+        "content": "Your name is Suraj and your role is Data Engineer."
+    }
+]
